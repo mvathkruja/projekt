@@ -21,8 +21,8 @@ public class Main {
         System.out.println("Cylinder Surface Area: " + cylinderSurfaceArea);
 
         // Circle
-        double circleRadius = 7;
-        double circlePerimeter = Geometrie.calculateCirclePerimeter(circleRadius);
+        double circleRadius1 = 7;
+        double circlePerimeter = Geometrie.calculateCirclePerimeter(circleRadius1);
         System.out.println("Circle Perimeter: " + circlePerimeter);
 
         double sideA = 3.0;
