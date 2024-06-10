@@ -7,6 +7,9 @@ public class Main {
         double radius = 2.5;
 
 
+        double circleRadius = 4.0;
+        System.out.println("Umfang des Kreises: " + GeometricCalculations.circleCircumference(circleRadius));
+
         System.out.println("Flächeninhalt Rechteck: " + GeometryCalculator.berechneRechteckFläche(länge, breite));
         System.out.println("Umfang Rechteck: " + GeometryCalculator.berechneRechteckUmfang(länge, breite));
         System.out.println("Flächeninhalt Kreis: " + GeometryCalculator.berechneKreisFläche(radius));
