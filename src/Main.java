@@ -2,6 +2,21 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        // Square
+        double squareSideLength = 4;
+        double squareArea = Geometrie.calculateSquareArea(squareSideLength);
+        System.out.println("Square Area: " + squareArea);
+
+        // Cylinder
+        double cylinderRadius = 3;
+        double cylinderHeight = 5;
+        double cylinderSurfaceArea = Geometrie.calculateCylinderSurfaceArea(cylinderRadius, cylinderHeight);
+        System.out.println("Cylinder Surface Area: " + cylinderSurfaceArea);
+
+        // Circle
+        double circleRadius = 7;
+        double circlePerimeter = Geometrie.calculateCirclePerimeter(circleRadius);
+        System.out.println("Circle Perimeter: " + circlePerimeter);
 
     }
 }
