@@ -1,17 +1,23 @@
-public class GeometricCalculations {
+class GeometryCalculator {
 
-    public static double rectangleArea(double length, double width) {
-        return length * width;
+    // Funktion zur Berechnung des Flächeninhalts eines Rechtecks
+    public static double berechneRechteckFläche(double länge, double breite) {
+        return länge * breite;
     }
 
+    // Funktion zur Berechnung des Umfangs eines Rechtecks
+    public static double berechneRechteckUmfang(double länge, double breite) {
+        return 2 * (länge + breite);
+    }
 
-    public static double circleCircumference(double radius) {
+    // Funktion zur Berechnung des Flächeninhalts eines Kreises
+    public static double berechneKreisFläche(double radius) {
+        return Math.PI * radius * radius;
+    }
+
+    // Funktion zur Berechnung des Umfangs eines Kreises
+    public static double berechneKreisUmfang(double radius) {
         return 2 * Math.PI * radius;
-    }
-
-    public static double triangleArea(double sideA, double sideB, double sideC) {
-        double s = (sideA + sideB + sideC) / 2;
-        return Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
     }
 }
 
